@@ -72,12 +72,18 @@ const buscarvagas = async (request, response) => {
   
     try {
       const buscaCargo = await bancoDeVagasSchema.find({cargo}) 
-      if(buscaCargo.length > 1){
+      if(cargo.length > 1){
         response.status(200).json({
             message:`Encontramos ${buscaCargo.length} vagas para o cargo [${request.body.cargo}].`, 
             lista_vagas: buscaCargo
           });
-      }
+      }else{
+        
+          return response.status(404).json({
+            Prezades: `Nenhum Profissional cadastrado até o momento.`
+          });
+        }
+      
      
     } catch (error) {
       response.status(500).json({
@@ -85,6 +91,7 @@ const buscarvagas = async (request, response) => {
       });
     }
   };
+
  
   const buscarvagaId = async (request, response) => {
     const { id } = request.params;
