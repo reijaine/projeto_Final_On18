@@ -1,10 +1,11 @@
-Nome Projeto
+          NOME DO PROJETO
+
 Insira-se.
 
-Tema
+          TEMA
 Insira-se é um banco de vagas para a inserção de recém formados no mercado de trabalho.
 
-Justificativa
+          JUSTIFICATIVA
 A ideia desse projeto veio de uma vivência pessoal, estou formada a quase 7 anos e não consegui ser inserida no mercado de trabalho, pois toda porta que batia exigia experiência, hoje soma-se mais de 15% de brasileiros que não consegue ser inserido no mercado de trabalho com sua respectiva  graduação.No curso TODAS EM TECH da {reprograma} vi uma oportunidade de criar um site de banco de vagas para profissionais que desejam cadastrar as vagas e profissionais que desejam buscar as vagas com preferências de recém formados.
 
 
@@ -114,53 +115,7 @@ Mongoose
 cors
 nodemon
 
-<br>
 
----
-
-
-
-# ✔️VISUALIZAÇÃO E FUNCIONAMENTO:
-
-
-<br>
-
->Criar profissionais
-<div align = "center">
-<img src='./assets/postcriarprofissionais.png'>
-
-</div>
-<br>
-
-
-<br>
-
->Listando todos os profissionais cadastrados
-<div align = "center">
-<img src='./assets/buscartodosprofissionais.png'>
-
-</div>
-<br>
-<br>
-<br>
-
->Buscar todas vagas
-<div align = "center">
-<img src='./assets/getbuscartodasvagas.png'>
-
-</div>
-<br>
-
-
-<br>
-
->Criar vagas 
-<div align = "center">
-<img src='./assets/postcriarvaga.png'>
-
-</div>
-<br>
-<br>
 link vercel:
 https://reijaine-pricila-projeto-final-on18.vercel.app/
 
