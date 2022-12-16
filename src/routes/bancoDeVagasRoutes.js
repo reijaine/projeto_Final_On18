@@ -12,5 +12,5 @@ router.post("/criarvaga", bancoDeVagasController.criarvaga);
 router.get("/buscarcargo", bancoDeVagasController.buscarVagaByCargo);
 router.get("/buscarvaga/:id", bancoDeVagasController.buscarvagaId);
 router.patch("/atualizarvaga/:id", bancoDeVagasController.atualizarvaga);
-router.delete("/deletarvaga/:id", bancoDeVagasController.deletarvaga);
+router.delete("/deletarvaga/:id", checkAuth, bancoDeVagasController.deletarvaga);
 module.exports = router;
